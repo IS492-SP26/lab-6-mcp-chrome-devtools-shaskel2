@@ -4,6 +4,8 @@ const taskInput = document.getElementById('taskInput');
 const addBtn = document.getElementById('addBtn');
 const taskList = document.getElementById('taskList');
 
+let taskCounter = 0;
+
 // Event listeners
 
 addBtn.addEventListener('click', addTask);
